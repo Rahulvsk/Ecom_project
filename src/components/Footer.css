@@ -1,0 +1,124 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 30px;
+  }
+  
+  .subscribe h4,
+  .contact-currency h5 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .subscribe p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    flex: 1;
+    min-width: 200px;
+    border: none;
+  }
+  
+  .subscribe button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-currency p,
+  .contact-currency small {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  .divider {
+    border: 0;
+    border-top: 1px solid #444;
+    margin: 30px 0;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .footer-col h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col a {
+    display: block;
+    color: #ccc;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 4px 0;
+  }
+  
+  .footer-col a:hover {
+    color: #fff;
+  }
+  
+  .social-icons span {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .payments img {
+    width: 40px;
+    margin-right: 6px;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    color: #999;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-top, .footer-bottom {
+      flex-direction: column;
+    }
+  
+    .subscribe form {
+      flex-direction: column;
+    }
+  
+    .subscribe input {
+      width: 100%;
+    }
+  
+    .subscribe button {
+      width: 100%;
+    }
+  }
+  
+  .foo{
+    background-color: rgb(243, 35, 35);
+    width: 100%;
+  }  
